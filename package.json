@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Find the string 'lpfn' within random stream data",
   "main": "./lib/cli.js",
-  "man": "./man/doc.1",
+  "man": "./man/leapfin.1",
   "bin": {
     "leapfin": "./lib/cli.js"
   },
