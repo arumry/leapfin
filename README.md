@@ -7,6 +7,7 @@
 
 ## Usage
 
+- `man leapfin`
 - `leapfin -h`
 - `leapfin -t [milliseconds]`
 - `leapfin 2> /dev/null` (only stdout)
