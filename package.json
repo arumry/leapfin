@@ -1,0 +1,27 @@
+{
+  "name": "leapfin",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Find the string 'lpfn' within random stream data",
+  "main": "./lib/cli.js",
+  "man": "./man/doc.1",
+  "bin": {
+    "leapfin": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lpfn"
+  ],
+  "author": "Aaron Rumery (aaronrumery@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "console.table": "^0.10.0",
+    "lodash": "^4.17.11",
+    "promisify-child-process": "^3.1.0",
+    "randomstring": "^1.1.5",
+    "stream-each": "^1.2.3"
+  }
+}

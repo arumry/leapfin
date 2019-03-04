@@ -1,0 +1,22 @@
+
+leapfin(1)                     User Manuals                    leapfin(1)
+
+NAME
+    leapfin - search for lpfn in streams
+
+SYNOPSIS
+    leapfin [-timeout] milliseconds
+
+DESCRIPTION
+     leapfin searches an infinite stream for the string 'Lpfn'
+     It will do this for up to 60000ms for each of the 10
+     workers it spawns or up to milliseconds specified by
+     passing the --timeout option
+
+OPTIONS
+     -t  milliseconds Run workers up to specified milliseconds.
+     -h Get usage of program
+
+AUTHOR
+     Aaron Rumery <aaronrumery at gmail dot com>
+Linux                Last change: MARCH 2019      
